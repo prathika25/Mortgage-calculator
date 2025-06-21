@@ -14,7 +14,7 @@ function InputForm({ onCalculate }) {
 
     const loanAmount = propertyValue - deposit;
     const monthlyRate = interestRate / 12 / 100;
-    const totalMonths = term * 12;
+    const totalMonths = term * 12; 
 
     if (loanAmount > 0 && monthlyRate > 0 && totalMonths > 0) {
       const monthlyPayment =
